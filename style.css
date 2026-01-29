@@ -318,12 +318,15 @@ h1{
 }
 
 .reviews-nav{
-  display:flex;
-  gap:10px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 20px;
 }
 
+
 .reviews-btn{
-  width: 42px;
+  width: 50px;
   height: 42px;
   border-radius: 999px;
   border: 1px solid rgba(255,255,255,.16);
@@ -331,12 +334,54 @@ h1{
   color: #fff;
   font-size: 24px;
   cursor: pointer;
+
 }
 
 .reviews-carousel{
-  max-width: 1100px;
-  margin: 0 auto;
+  position: relative;
 }
+
+/* Botões Netflix */
+.reviews-btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+
+  border: none;
+  background: rgba(0,0,0,.55);
+  color: #fff;
+  font-size: 26px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  z-index: 5;
+
+  backdrop-filter: blur(6px);
+  transition: all .25s ease;
+}
+
+/* Lados */
+.reviews-btn.prev{
+  left: -22px;
+}
+
+.reviews-btn.next{
+  right: -22px;
+}
+
+/* Hover Netflix */
+.reviews-btn:hover{
+  background: rgba(0,0,0,.85);
+  transform: translateY(-50%) scale(1.08);
+}
+
 
 .reviews-viewport{
   overflow: hidden;
@@ -671,7 +716,7 @@ h1{
 
 .whatsapp-float{
   position: fixed;
-  right: 300px;
+  right: 100px;
   bottom: 80px;
   width: 56px;
   height: 56px;
@@ -708,7 +753,7 @@ h1{
 /* Mobile: sobe um pouco pra não atrapalhar */
 @media (max-width: 520px){
   .whatsapp-float{
-    right: 14px;
+    right: 40px;
     bottom: 14px;
     width: 54px;
     height: 54px;
