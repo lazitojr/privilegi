@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privilege</title>
+  <meta name="description" content="Fachadas, letreiros, adesivos, impressão e identidade visual. Transforme sua marca com qualidade e rapidez." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+ 
+
+
+  <script src="js/carousel2.js" defer></script>
+
+</head>
+
+
+<body>
+
+  <a
+  class="whatsapp-float"
+  href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20😊"
+  target="_blank"
+  rel="noopener"
+  aria-label="Falar no WhatsApp">
+
+  <span class="whatsapp-icon" aria-hidden="true">✆</span></a>
+
+
+
+
+  <header class="header">
+    <nav class="nav container">
+      <a class="brand" href="#">
+        
+        <div class="brand__dot">
+         <img src="/img/logo.png" alt="">
+        </div>
+
+       
+        
+      </a>
+
+      <button class="nav__toggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav__links">
+        <a href="#servicos">Serviços</a>
+        <a href="#portfolio">Trabalhos</a>
+        <a href="#partners">Parceiros</a>
+        <a class="btn btn--small" href="#contato">Orçamentos</a>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <main>
+    <br>
+    <br>
+    <br>
+    <!-- HERO -->
+
+
+<!--<div class="carousel2 reveal" id="carousel2">
+  <div class="carousel2__viewport">
+    <div class="carousel2__track">
+      <article class="carousel2__slide">
+        <img src="img/pivilege-fernte.JPG" alt="Projeto 1" loading="lazy">
+        <div class="carousel2__overlay">
+          <p class="carousel2__kicker">Comunicação Visual</p>
+          <h3 class="carousel2__title">Fachadas que chamam atenção</h3>
+          <p class="carousel2__text">Acabamento premium, instalação rápida e durabilidade.</p>
+        </div>
+      </article>
+
+      <article class="carousel2__slide">
+        <img src="img/1.png" alt="Projeto 2" loading="lazy">
+        <div class="carousel2__overlay">
+          <p class="carousel2__kicker">Letreiros</p>
+          <h3 class="carousel2__title">Sua marca brilhando</h3>
+          <p class="carousel2__text">Letreiro luminoso com alta visibilidade dia e noite.</p>
+        </div>
+      </article>
+
+      <article class="carousel2__slide">
+        <img src="img/1.png" alt="Projeto 3" loading="lazy">
+        <div class="carousel2__overlay">
+          <p class="carousel2__kicker">Adesivação</p>
+          <h3 class="carousel2__title">Transforme ambientes</h3>
+          <p class="carousel2__text">Adesivos personalizados com aplicação impecável.</p>
+        </div>
+      </article>
+
+      <article class="carousel2__slide">
+        <img src="img/1.png" alt="Projeto 4" loading="lazy">
+        <div class="carousel2__overlay">
+          <p class="carousel2__kicker">Projetos</p>
+          <h3 class="carousel2__title">Do conceito à entrega</h3>
+          <p class="carousel2__text">Criação, produção e instalação com consistência.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  <div class="carousel2__dots" aria-label="Navegação do carrossel"></div>
+</div> -->
+
+
+
+
+
+    <section class="hero">
+      
+  <div class="hero__bg">
+     <div class="hero__carousel">
+      <div class="slide active" style="background-image: url('img/pivilege-fernte.JPG.jpg')"></div>
+      <div class="slide" style="background-image: url('img/img-2.jpg')"></div>
+      <div class="slide" style="background-image: url('img/img-3.jpg')"></div>
+      <div class="slide" style="background-image: url('img/img-4.jpg')"></div>
+      <div class="slide" style="background-image: url('img/img-5.jpg')"></div>
+      <div class="slide" style="background-image: url('img/img-6.jpg')"></div>
+    </div>
+
+<script>
+  const slides = document.querySelectorAll('.hero__carousel .slide');
+  let current = 0;
+
+  function nextSlide() {
+    slides[current].classList.remove('active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('active');
+  }
+
+  setInterval(nextSlide, 5000); // troca a cada 5s
+</script>
+
+
+   <div class="hero__overlay"></div>
+  </div>
+
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <p class="pill">Comunicação Visual • Impressão • Fachadas</p>
+          <h1>
+            É um  <span class="gradient">privilégio</span> ter 
+            <span class="gradient">você aqui</span>!
+          </h1>
+          <p class="hero__text">
+            Do layout à instalação, com visual moderno e acabamento de alto nível.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn" id="whatsapp" href="https://api.whatsapp.com/send/?phone=553434215450&text&type=phone_number&app_absent=0" target="_blank" rel="noopener">Pedir orçamento no WhatsApp</a>
+            <a class="btn btn--ghost" href="https://drive.google.com/drive/folders/145E3X-h-WuvfjJWKq7CD0hZ5g_Sc2pO7" target="_blank" rel="noopener">Nosso catalago</a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="stat">
+              <strong>+500</strong>
+              <span>Projetos entregues</span>
+            </div>
+            <div class="stat">
+              <strong>48h</strong>
+              <span>Prazo médio</span>
+            </div>
+            <div class="stat">
+              <strong>5★</strong>
+              <span>Avaliações</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__card reveal" style="--delay: .12s">
+          <div class="card">
+            <div class="card__badge">Destaque</div>
+            <h3>Identidade visual completa</h3>
+            <p>Criamos fachadas, letreiros, adesivos, envelopamento e materiais impressos com acabamento premium e entrega rápida.</p>
+            <ul class="checklist">
+              <li>Fachadas e letreiros</li>
+              <li>Adesivos e banners</li>
+              <li>Placas e sinalização</li>
+              <li>Cartões, panfletos e mais</li>
+              <br>
+            </ul>
+            <a class="link" href="#contato">Quero um orçamento →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="servicos" class="section">
+      <div class="container">
+        <header class="section__header reveal">
+          <h2>Serviços que colocam sua marca no mapa</h2>
+          <p>Produção com qualidade, cuidado nos detalhes e instalação profissional.</p>
+        </header>
+
+        <div class="grid cards">
+          <article class="service reveal">
+            <h3>Fachadas</h3>
+            <p>ACM, Lona Estruturada, Letras de Acrílico, Letras de PVC.</p>
+          </article>
+          <article class="service reveal" style="--delay:.06s">
+            <h3>Conunicação Interna</h3>
+            <p>Placa de Sinalização, PLacas em Acrílico/ MDF, Quadros Personalizados, Totem Informativo, Plotagem de carro.</p>
+          </article>
+          <article class="service reveal" style="--delay:.12s">
+            <h3>Comunicação Externa</h3>
+            <p>Cavalete, Widbanner, Outdoor, Totem, Luminosos, Adesivo de Vitrine, Adesivo de Parede, Adesivo Personalizado.</p>
+          </article>
+          <article class="service reveal" style="--delay:.18s">
+            <h3>Itens Personalizados</h3>
+            <p>Troféu, chaveiro, canetas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section section--alt">
+      <div class="container">
+        <header class="section__header reveal">
+          <h2>Alguns trabalhos</h2>
+          <p></p>
+        </header>
+
+      <div class="grid gallery">
+        <div class="shot reveal">
+          <img src="img/portfolio/1.jpg" alt="Projeto de comunicação visual">
+        </div>
+
+        <div class="shot reveal">
+          <img src="img/portfolio/2.jpg" alt="Projeto de comunicação visual">
+        </div>
+
+        <div class="shot reveal">
+          <img src="img/portfolio/3.jpg" alt="Projeto de comunicação visual">
+        </div>
+
+        <div class="shot reveal">
+          <img src="img/portfolio/4.jpg" alt="Projeto de comunicação visual">
+        </div>
+
+        <div class="shot reveal" style="--delay:.06s">
+          <img src="img/portfolio/5.jpg" alt="Fachada comercial">
+       </div>
+
+       <div class="shot reveal" style="--delay:.12s">
+         <img src="img/portfolio/6.jpg" alt="Letreiro em ACM">
+       </div>
+
+      </div>
+
+
+      </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+<section class="section" id="avaliacoes"></section>
+
+<div class="container">
+    <header class="section__header">
+      
+
+<div class="grid testimonials">
+
+<div class="actions">
+      
+    </div>
+    </header>
+
+    <section class="reviews-section" id="reviews">
+  <div class="container"><div>
+        <h2>Veja o que nossos clientes falam no Google.</h2>
+        <a class="btn" target="_blank" rel="noopener" href="https://maps.app.goo.gl/ALThqghg4CAtU2L28">
+        Ver avaliações no Google
+      </a>
+    <div class="reviews-head">
+      
+            
+      </div>
+
+      
+
+    <div class="reviews-carousel" id="reviewsCarousel">
+      <div class="reviews-viewport">
+        <div class="reviews-track">
+          <!-- CARD 1 -->
+          <article class="review-card">
+            <img class="review-avatar" src="img/person/cliente-1.png" alt="Foto do avaliador" loading="lazy">
+            <div class="review-body">
+              <div class="review-top">
+                <strong class="review-name">Andreia Santos</strong>
+                <span class="review-stars">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p class="review-text"><h3>“A empresa demonstra excelência em cada etapa do processo, desde o atendimento inicial até a entrega final.”</h3></p>
+              <br>
+              <br>
+              <br>
+              
+              <span class="review-meta">Google • </span>
+            </div>
+          </article>
+
+          <!-- CARD 2 -->
+          <article class="review-card">
+            <img class="review-avatar" src="img/person/cliente-2.png" alt="Foto do avaliador" loading="lazy">
+            <div class="review-body">
+              <div class="review-top">
+                <strong class="review-name">Veronica moreira</strong>
+                <span class="review-stars">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p class="review-text"><h3>“Fui super bem atendida online, meu pedido fico pronto antes da data prevista! E ficou perfeito!</h3></p>
+              <br>
+              <br>
+              <br>
+              <br>
+              <span class="review-meta">Google • </span>
+            </div>
+          </article>
+
+          <!-- CARD 3 -->
+          <article class="review-card">
+            <img class="review-avatar" src="img/person/cliente-3.png" alt="Foto do avaliador" loading="lazy">
+            <div class="review-body">
+              <div class="review-top">
+                <strong class="review-name">Helida Ferreira</strong>
+                <span class="review-stars">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p class="review-text"><h3>“Fui muito bem atendida por todos, serviço muito bom, atendimento excelente, pode confiar. Farei mais trabalhos com esses novos parceiros. Obg.</h3></p>
+              <br>
+              <span class="review-meta">Google • </span>
+            </div>
+          </article>
+
+          <!-- CARD 4 -->
+          <article class="review-card">
+            <img class="review-avatar" src="img/person/cliente-4.png" alt="Foto do avaliador" loading="lazy">
+            <div class="review-body">
+              <div class="review-top">
+                <strong class="review-name">Damião Ferreira</strong>
+                <span class="review-stars">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p class="review-text"><h3>“Eu recomendo essa empresa, são pessoas sérias, cumprem o combinado e de uma agilidade ímpar! Ótimo atendimento e excelente execução do trabalho, fiquei muito satisfeito.</h3></p>
+              <span class="review-meta">Google • </span>
+            </div>
+          </article>
+
+          <!-- CARD 5 -->
+          <article class="review-card">
+            <img class="review-avatar" src="img/person/cliente-5.png" alt="Foto do avaliador" loading="lazy">
+            <div class="review-body">
+              <div class="review-top">
+                <strong class="review-name">Matheus Francisco</strong>
+                <span class="review-stars">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p class="review-text"><h3>“Muito bom o trabalho deles. Principalmente pela atenção que tem com os clientes! Chamei e vieram no dia.”</h3></p>
+              <br>
+              <br>
+              <br>
+              <span class="review-meta">Google •</span>
+            </div>
+          </article>
+
+          <!-- CARD 6 -->
+          <article class="review-card">
+            <img class="review-avatar" src="img/person/cliente-6.png" alt="Foto do avaliador" loading="lazy">
+            <div class="review-body">
+              <div class="review-top">
+                <strong class="review-name">Orih Queiroz</strong>
+                <span class="review-stars">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p class="review-text"><h3>“O cuidado no atendimento foi o que me chamou a atenção, a rapidez e detalhes no projeto foram primordiais. Obrigada Pamela e equipe Privilege.”</h3></p>
+            
+              <br>
+
+              <span class="review-meta">Google • </span>
+            </div>
+          </article>
+
+          <!-- CARD 7 -->
+          <article class="review-card">
+            <img class="review-avatar" src="img/person/cliente-7.png" alt="Foto do avaliador" loading="lazy">
+            <div class="review-body">
+              <div class="review-top">
+                <strong class="review-name">Luana Cristhina Souza </strong>
+                <span class="review-stars">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p class="review-text"><h3>“Eu super indico essa equipe que transforma vidas e que faz um trabalho de inclusão na prática. Parabéns!”</h3></p>
+              <br>
+              <br>
+              <br>
+              
+              <br>
+              <span class="review-meta">Google • </span>
+            </div>
+          </article>
+
+          <!-- CARD 8 -->
+          <article class="review-card">
+            <img class="review-avatar" src="img/person/cliente-8.png" alt="Foto do avaliador" loading="lazy">
+            <div class="review-body">
+              <div class="review-top">
+                <strong class="review-name">Anna Cruvinel</strong>
+                <span class="review-stars">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p class="review-text"><h3>“Entrega Muita qualidade nos trabalhos de design e nos materiais”</h3></p>
+              <br>
+              <br>
+              <br>
+              <br>
+              
+              <br>
+              <span class="review-meta">Google • </span>
+            </div>
+          </article>
+
+          <!-- CARD 9 -->
+          <article class="review-card">
+            <img class="review-avatar" src="img/person/cliente-9.png" alt="Foto do avaliador" loading="lazy">
+            <div class="review-body">
+              <div class="review-top">
+                <strong class="review-name">Juan Marcos Salanitro</strong>
+                <span class="review-stars">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p class="review-text"><h3>“Atendimento humanizado e com prontidão, time de designers profissionais e ainda assim foi o melhor orçamento. Me entregaram antes do prazo combinado. Obrigada!”</h3></p>
+              <br>
+              
+              <span class="review-meta">Google • </span>
+            </div>
+          </article>
+
+          <!-- CARD 10 -->
+          <article class="review-card">
+            <img class="review-avatar" src="img/person/cliente-10.png" alt="Foto do avaliador" loading="lazy">
+            <div class="review-body">
+              <div class="review-top">
+                <strong class="review-name">Cleusa Martins ferreira </strong>
+                <span class="review-stars">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p class="review-text"><h3>“Ótimo atendimento, entrega dentro do prazo 👏👏. Continue assim obrigada”</h3></p>
+              <br>
+              <br>
+              <br>
+              <br>
+              <span class="review-meta">Google • </span>
+            </div>
+          </article>
+
+          <!-- CARD 11 -->
+          <article class="review-card">
+            <img class="review-avatar" src="img/person/cliente-11.png" alt="Foto do avaliador" loading="lazy">
+            <div class="review-body">
+              <div class="review-top">
+                <strong class="review-name">Frutal Cred Soluções</strong>
+                <span class="review-stars">⭐⭐⭐⭐⭐</span>
+              </div>
+              <p class="review-text"><h3>“Excelente atendimento e qualidade nos serviços prestados. Entrega sempre no prazo combinado!”</h3></p>
+              <br>
+              <br>
+              <br>
+              <br>
+              <span class="review-meta">Google • </span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ 
+    <!--END DEPOIMENTOS-->
+
+
+
+    <body class="index-page">
+
+  
+
+    <div class="map">
+      <iframe
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        width="100%" height="320" style="border:0; border-radius:16px;"
+        src="https://www.google.com/maps?q=Privilege%20-%20Solu%C3%A7%C3%B5es%20em%20Comunica%C3%A7%C3%A3o%20Visual&output=embed">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!--portifolio section-->
+
+
+
+
+
+
+
+
+<!--PARCEIROS-->
+
+    <section id="partners" class="partners" id="parceiros">
+  <div class="container">
+    <div class="section__head">
+      <h2>Parceiros</h2>
+      <p class="mini">Empresas que confiam no nosso trabalho</p>
+    </div>
+
+    <div class="partners__grid">
+      <a class="partner" href="https://jbgrupo.com.br/supermercados-jb/" aria-label="Parceiro 1">
+        <img src="img/parceiros/Grupo JB - Logo.png" alt="Logo Parceiro 1">
+      </a>
+
+      <a class="partner" href="#" aria-label="Parceiro 2">
+        <img src="img/parceiros/logo grupo queiroz.png" alt="Logo Parceiro 2">
+      </a>
+      <a class="partner" href="#" aria-label="Parceiro 3">
+        <img src="img/parceiros/logo SICOOB e FENEG.png" alt="Logo Parceiro 3">
+      </a>
+      <a class="partner" href="#" aria-label="Parceiro 4">
+        <img src="img/parceiros/henimken.png" alt="Logo Parceiro 4">
+      </a>
+      <a class="partner" href="#" aria-label="Parceiro 5">
+        <img src="img/parceiros/CCAA_logo_(2020).svg.png" alt="Logo Parceiro 5">
+      </a>
+      <a class="partner" href="#" aria-label="Parceiro 6">
+        <img src="img/parceiros/Subway_2016_logo.svg.png" alt="Logo Parceiro 6">
+      </a>
+      <a class="partner" href="#" aria-label="Parceiro 7">
+        <img src="img/parceiros/cerveja-imperio-logo-png_seeklogo-368505.png" alt="Logo Parceiro 6">
+      </a>
+
+      <a class="partner" href="#" aria-label="Parceiro 7">
+        <img src="img/parceiros/colegio-objetivo-seo.png" alt="Logo Parceiro 6">
+      </a>
+
+      <a class="partner" href="#" aria-label="Parceiro 7">
+        <img src="img/parceiros/cemig.png" alt="Logo Parceiro 6">
+      </a>
+
+      <a class="partner" href="#" aria-label="Parceiro 7">
+        <img src="img/parceiros/COPA2024.png" alt="Logo Parceiro 6">
+      </a>
+
+      <a class="partner" href="#" aria-label="Parceiro 7">
+        <img src="img/parceiros/splash.png" alt="Logo Parceiro 6">
+      </a>
+
+      <a class="partner" href="#" aria-label="Parceiro 7">
+        <img src="img/parceiros/Logo-ABC.png" alt="Logo Parceiro 6">
+      </a>
+    </div>
+  </div>
+</section>
+
+<!--END CARD DE PARCEIROS-->
+
+
+    <!-- CONTATO -->
+    <section id="contato" class="section section--alt">
+      <div class="container">
+        <div class="contact reveal">
+          <div>
+            <h2>Vamos colocar sua marca em destaque?</h2>
+            <p>Chama no WhatsApp e manda sua ideia. Respondemos rápido.</p>
+
+            <div class="contact__actions">
+              <a class="btn" id="whatsapp" href="https://api.whatsapp.com/send/?phone=553434215450&text&type=phone_number&app_absent=0" target="_blank" rel="noopener">Falar no WhatsApp</a>
+              
+            </div>
+
+            <p class="mini">
+              Ou se preferir: <strong>(34) 3421-5450</strong> • <strong>contato@suaempresa.com</strong>
+            </p>
+          </div>
+
+          <div class="contact__box">
+            <h3>Orçamento rápido</h3>
+            <ol>
+              <li>Escolha o serviço</li>
+              <li>Envie medidas/foto</li>
+              <li>Receba o orçamento</li>
+            </ol>
+            <div class="tag-row">
+              <span class="tag">Entrega rápida,</span>
+              <span class="tag">Instalação e</span>
+              <span class="tag">Acabamento premium</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+  <div class="container footer__grid footer--center">
+    
+    <div class="brand brand--footer">
+      <span class="brand__dot">
+        <img src="/img/logo.png" alt="Logo SuaEmpresa">
+      </span>
+      
+    </div>
+
+    <p class="mini">© <span id="year"></span> • Comunicação Visual</p>
+
+   
+
+  </div>
+</footer>
+
+
+
+  <script src="js/reviews-carousel.js" defer></script>
+  <script src="script.js"></script>
+</body>
+</html>
